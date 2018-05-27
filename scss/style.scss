@@ -1,0 +1,64 @@
+$bg: rgba(200,200,200,.8);
+
+.weather-icons .details p{
+  padding: 18px;
+  border-radius: 4px;
+  color: #333;
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+.weather-icons img{
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 1px;
+    margin-bottom: 46px;
+    width: 63px;
+} 
+
+.jumbotron{
+  opacity: .8;
+  border-radius: 0px;
+  padding: 30px;
+}
+
+
+
+button{
+  margin-bottom: 15px;
+}
+
+#temp{
+  background-color: $bg;
+}
+
+
+.weather-icons .col-md-6{
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 1px;
+    margin-bottom: 46px;
+    width: 63px;
+}
+
+i{
+  font-size: 24px !important;
+  position: relative;
+  bottom: 2px;
+}
+
+
+
+
+body{
+  //background: url(https://goo.gl/l9lFtk) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.loading img{
+  width: 200px;
+}
+
+

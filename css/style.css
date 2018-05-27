@@ -1,0 +1,54 @@
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+i {
+  font-size: 24px !important;
+  position: relative;
+  bottom: 2px;
+}
+
+.jumbotron {
+  opacity: .8;
+  border-radius: 0px;
+  padding: 30px;
+}
+
+.weather-icons img {
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 1px;
+  margin-bottom: 46px;
+  width: 63px;
+}
+
+.weather-icons .col-md-6 {
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 1px;
+  margin-bottom: 46px;
+  width: 63px;
+}
+
+.weather-icons .details p {
+  padding: 18px;
+  border-radius: 4px;
+  color: #333;
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+#temp {
+  background-color: rgba(200, 200, 200, 0.8);
+}
+
+.loading img {
+  width: 200px;
+}
+
+button {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Free Code Camp Weather API</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Free Code Camp API</title>
+</head>
+<body>
+
+<div id="app">
+  <div class="jumbotron">
+    <h1 class="text-center">Weather API</h1>
+    <h2 class="card-subtitle mb-2 text-muted text-center" id="city">{{ city }}</h2>
+    <h2 class="card-subtitle mb-2 text-muted loading">One Moment</h2>
+  </div>
+  
+  <div class="container weather-icons">
+    <div class="row loading">
+      <div class="col-sm-12 text-center">
+        <img src="https://community.outsellinc.com/sites/default/themes/outsell/outsell_community/img/outsell_loading.gif"/>
+      </div>
+    </div>
+    <div class="row" id="main-content">
+      <div class="col-sm-6 text-center">
+        <img :src="image">
+        <p id="temp" class="lead">
+          <span id="f">{{ temp_f }}&#8457</span>
+          <span id="c">{{ temp_c }}&#8451</span>
+        </p>
+        <button class="btn btn-default">change to celsius</button>
+        
+      </div>
+      
+      <div class="col-sm-6 center-block details">
+        
+        <ul class="list-group">
+  <li class="list-group-item">Weather: {{ weather }}</li>
+  <li class="list-group-item">Relative Humidity: {{ humidity }}</li>
+  <li class="list-group-item">Feels like: {{ feels_f }}&#8457/{{ feels_c }}&#8451</li>
+  <li class="list-group-item">Wind Conditions: {{ wind }}</li>
+</ul>
+        
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.1/axios.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
